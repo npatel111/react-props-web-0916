@@ -14,6 +14,9 @@ class MovieCard extends React.Component {
   }
 }
 
+
+
+
 MovieCard.defaultProps = {
   poster: 'http://i.imgur.com/bJw8ndW.png'
 };
@@ -35,3 +38,4 @@ ReactDOM.render(
   />,
   document.getElementById('main')
 );
+module.exports = MovieCard;
